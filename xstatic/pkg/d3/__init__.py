@@ -4,18 +4,18 @@ XStatic resource package
 See package 'XStatic' for documentation and basic tools.
 """
 
-DISPLAY_NAME = 'D3' # official name, upper/lowercase allowed, no spaces
-PACKAGE_NAME = 'XStatic-%s' % DISPLAY_NAME # name used for PyPi
+DISPLAY_NAME = 'D3'  # official name, upper/lowercase allowed, no spaces
+PACKAGE_NAME = 'XStatic-%s2' % DISPLAY_NAME  # name used for PyPi
 
-NAME = __name__.split('.')[-1] # package name (e.g. 'foo' or 'foo_bar')
-                               # please use a all-lowercase valid python
-                               # package name
+NAME = __name__.split('.')[-1]  # package name (e.g. 'foo' or 'foo_bar')
+# please use a all-lowercase valid python
+# package name
 
-VERSION = '3.1.6' # version of the packaged files, please use the upstream
-                  # version number
-BUILD = '2' # our package build number, so we can release new builds
-             # with fixes for xstatic stuff.
-PACKAGE_VERSION = VERSION + '.' + BUILD # version used for PyPi
+VERSION = '3.5.16'  # version of the packaged files, please use the upstream
+# version number
+BUILD = '1'  # our package build number, so we can release new builds
+# with fixes for xstatic stuff.
+PACKAGE_VERSION = VERSION + '.' + BUILD  # version used for PyPi
 
 DESCRIPTION = "%s %s (XStatic packaging standard)" % (DISPLAY_NAME, VERSION)
 
@@ -24,8 +24,8 @@ CLASSIFIERS = []
 KEYWORDS = '%s xstatic' % NAME
 
 # XStatic-* package maintainer:
-MAINTAINER = 'Radomir Dopieralski'
-MAINTAINER_EMAIL = 'openstack@sheep.art.pl'
+MAINTAINER = 'Michael Kuty'
+MAINTAINER_EMAIL = 'mail@majklk.cz'
 
 # this refers to the project homepage of the stuff we packaged:
 HOMEPAGE = 'http://d3js.org/'
